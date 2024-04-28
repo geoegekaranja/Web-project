@@ -39,5 +39,53 @@
 </head>
 <body>
     <div class="container">
-        <h1>TechSolutions - Product Purchase</
+        <h1>TechSolutions - Product Purchase</h1>
+        <!-- Camera -->
+        <div class="product">
+            <h2>Camera</h2>
+            <div class="product-info">
+                <p>Price: $1000</p>
+                <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+        </div>
+        <!-- Phone -->
+        <div class="product">
+            <h2>Phone</h2>
+            <div class="product-info">
+                <p>Price: $$1500</p>
+                <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+        </div>
+        <!-- Laptop -->
+        <div class="product">
+            <h2>Laptop</h2>
+            <div class="product-info">
+                <p>Price: $1700</p>
+                <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+        </div>
+        <!-- Projector -->
+        <div class="product">
+            <h2>Projector</h2>
+            <div class="product-info">
+                <p>Price: $1000</p>
+                <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+        </div>
+        <!-- Television -->
+        <div class="product">
+            <h2>Television</h2>
+            <div class="product-info">
+                <p>Price: $2200</p>
+                <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
 
