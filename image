@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
     <style> 
-    body{
-background-image:url('techlogo.jpeg') ;
-
+   body{
+        background-image: url('techlogo.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
     }
         
    </style>
