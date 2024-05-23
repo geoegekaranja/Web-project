@@ -9,7 +9,10 @@ body {
     background-color: #f0f0f0be;
     color: #b6bbcc;
     line-height: 1.5;
+
+    background-image:url("techlogo.jpeg");
 }
+
 
 header, footer {
     background-color: #333;
