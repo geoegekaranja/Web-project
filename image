@@ -3,7 +3,7 @@
 <head>
     <style> 
    body{
-        background-image: url('techlogo.jpeg');
+        background-image: url('techsol.jpeg');
         background-repeat: no-repeat;
         background-size: cover;
     }
