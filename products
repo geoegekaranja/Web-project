@@ -4,38 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TechSolutions - Product Purchase</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        h1 {
-            text-align: center;
-        }
-        .product {
-            margin-bottom: 20px;
-            border: 1px solid #ccc;
-            padding: 10px;
-        }
-        .product-info {
-            margin-top: 10px;
-        }
-        .btn {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #2e3843;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-        .btn:hover {
-            background-color: #0056b3;
-        }
-    </style>
+    <style> body {
+         font-family: Arial, sans-serif; 
+         background-image: url("techlogo.jpeg");
+          background-repeat: no-repeat; background-size: 30%;
+         } 
+          .container { 
+            max-width: 800px; margin: 0 auto; padding: 20px;
+             }
+              h1 { text-align: center;
+               } 
+               .product { margin-bottom: 20px; border: 1px solid #ccc; padding: 10px; }
+                 .product-info { margin-top: 10px; }
+                  .btn { display: inline-block; 
+                  padding: 10px 20px; 
+                  background-color: #2e3843; color: #fff; 
+                  text-decoration: none; border-radius: 5px; } 
+                  .btn:hover { background-color: #0056b3; } 
+</style>
 </head>
 <body>
     <div class="container">
