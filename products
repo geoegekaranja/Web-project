@@ -27,7 +27,7 @@
         .btn {
             display: inline-block;
             padding: 10px 20px;
-            background-color: #007bff;
+            background-color: #2e3843;
             color: #fff;
             text-decoration: none;
             border-radius: 5px;
@@ -45,7 +45,7 @@
             <h2>Camera</h2>
             <div class="product-info">
                 <p>Price: $1000</p>
-                <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Description: This is a high-quality camera with advanced features.</p>
                 <a href="#" class="btn">Buy Now</a>
             </div>
         </div>
@@ -53,8 +53,8 @@
         <div class="product">
             <h2>Phone</h2>
             <div class="product-info">
-                <p>Price: $$1500</p>
-                <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Price: $1500</p>
+                <p>Description: This is a top-of-the-line phone with advanced features.</p>
                 <a href="#" class="btn">Buy Now</a>
             </div>
         </div>
@@ -63,7 +63,7 @@
             <h2>Laptop</h2>
             <div class="product-info">
                 <p>Price: $1700</p>
-                <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Description: This is a high-performance laptop with advanced features.</p>
                 <a href="#" class="btn">Buy Now</a>
             </div>
         </div>
@@ -72,7 +72,7 @@
             <h2>Projector</h2>
             <div class="product-info">
                 <p>Price: $1000</p>
-                <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Description: This is a high-quality projector with advanced features.</p>
                 <a href="#" class="btn">Buy Now</a>
             </div>
         </div>
@@ -81,11 +81,10 @@
             <h2>Television</h2>
             <div class="product-info">
                 <p>Price: $2200</p>
-                <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Description: This is a large-screen television with advanced features.</p>
                 <a href="#" class="btn">Buy Now</a>
             </div>
         </div>
     </div>
 </body>
 </html>
-
