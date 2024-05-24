@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style> 
+   body{
+        background-image: url('techsol.jpeg');
+        background-size: 30%;
+    }
+        
+   </style>
+</head>
+<body>
+    <h2>background image add</h2>
+</body>
+</html>
