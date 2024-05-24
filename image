@@ -4,8 +4,7 @@
     <style> 
    body{
         background-image: url('techsol.jpeg');
-        background-repeat: no-repeat;
-        background-size: cover;
+        background-size: 30%;
     }
         
    </style>
