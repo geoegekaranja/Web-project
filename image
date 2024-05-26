@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
     <style> 
+   
    body{
-        background-image: url('techsol.jpeg');
-        background-size: 30%;
-    }
+    background-color: rgb(183, 192, 189);
+  background-image: url("techsol.jpeg");
+}     
         
    </style>
 </head>
