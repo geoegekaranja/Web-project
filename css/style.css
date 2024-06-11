@@ -1,4 +1,43 @@
-body{
-    background-color: rgb(183, 192, 189);
-background: image('techsol.jpeg');
-}                                   
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0be;
+    color: #243e92;
+    line-height: 1.5;
+
+    background-image:url("techlogo.jpeg");
+}
+
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
