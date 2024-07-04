@@ -41,3 +41,26 @@ main {
 section {
     margin-bottom: 20px;
 }
+.form-input {  
+    width: 100%;  
+    padding: 10px;  
+    margin-bottom: 20px;  
+    border: 1px solid #ccc;  
+}  
+  
+.form-input:focus {  
+    border-color: #aaa;  
+}  
+  
+#submit-btn {  
+    background-color: #4CAF50;  
+    color: #fff;  
+    padding: 10px 20px;  
+    border: none;  
+    border-radius: 5px;  
+    cursor: pointer;  
+}  
+  
+#submit-btn:hover {  
+    background-color: #3e8e41;  
+}
