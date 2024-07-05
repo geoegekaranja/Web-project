@@ -44,7 +44,7 @@
   <h1>TechSolutions - Product Purchase</h1>  
   <div class="product">  
     <h2>Camera</h2>  
-    <img alt="Camera" src="camera.jpeg">  
+    <img alt="Camera" src="camera.jpeg">
     <div class="product-info">  
       <p>Price: $1000</p>  
       <p>Description: This is a high-quality camera with advanced features.</p>  
@@ -53,7 +53,7 @@
   </div>  
   <div class="product">  
     <h2>Phone</h2>  
-    <img alt="Phone" src="phone.jpeg">  
+    <img alt="phone" src="phone.jpeg">  
     <div class="product-info">  
       <p>Price: $1500</p>  
       <p>Description: This is a top-of-the-line phone with advanced features.</p>  
