@@ -1,9 +1,10 @@
-<?php
+<!-- <?php
 // Include the database connection
-include 'db.php';
+<?php include_once ('db.php');
+?>
 
 // Fetch data from the database
-$sql = "SELECT * FROM yourtable";
+$sql = "SELECT * FROM register";
 $result = $conn->query($sql);
 
 $data = array();
@@ -18,12 +19,12 @@ $conn->close();
 
 // Convert data to JSON format (if needed for use in JavaScript)
 $jsonData = json_encode($data);
-?>
+?> -->
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <style>
+    <!-- <style>
         body {  
             font-family: cursive; 
             background-color: rgba(247, 247, 241, 0.861);  
@@ -33,7 +34,7 @@ $jsonData = json_encode($data);
             background-size: cover;  
             background-repeat: no-repeat;  
         }  
-    </style>
+    </style> -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TechSolutions</title>
@@ -43,13 +44,16 @@ $jsonData = json_encode($data);
     <!-- Header -->
     <header>
         <h1>About TechSolutions</h1>
+        
+
+        
         <nav>
             <ul>
-                <li><a href="index.php">Home</a></li>
-                <li><a href="about.php">About</a></li>
-                <li><a href="registration.php">Registration</a></li>
-                <li><a href="products.php">Products</a></li>
-                <li><a href="db.php">db</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="products.html">Products</a></li>
+                <!-- <li><a href="db.php">db</a></li> -->
             </ul>
         </nav>
     </header>
@@ -62,10 +66,10 @@ $jsonData = json_encode($data);
         </section>
         
         <!-- Example section to display data from database (if needed) -->
-        <section>
+        <!-- <section>
             <h2>Database Data</h2>
             <pre><?php echo print_r($data, true); ?></pre>
-        </section>
+        </section> -->
     </main>
 
     <!-- Contact Form -->
