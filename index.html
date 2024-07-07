@@ -53,6 +53,7 @@ $jsonData = json_encode($data);
                 <li><a href="about.html">About</a></li>
                 <li><a href="login.html">Login</a></li>
                 <li><a href="products.html">Products</a></li>
+                <li><a href="contactus.html">contact_us</a></li>
                 <!-- <li><a href="db.php">db</a></li> -->
             </ul>
         </nav>
@@ -71,33 +72,5 @@ $jsonData = json_encode($data);
             <pre><?php echo print_r($data, true); ?></pre>
         </section> -->
     </main>
-
-    <!-- Contact Form -->
-    <div class="container">  
-        <h2>Contact Us</h2>  
-        <form id="contact-form" method="post" action="contact.php">  
-            <div class="form-label">  
-                <label for="name">Name:</label>  
-                <input required="" type="text" name="name">  
-            </div>  
-            <div class="form-label">  
-                <label for="email">Email:</label>  
-                <input required="" id="email" type="email" name="email">  
-            </div> 
-            <div class="form-label">  
-                <label for="tel">Tel:</label>  
-                <input required="" type="text" name="tel">  
-            </div>  
-            <div class="form-label">  
-                <label for="message">Message:</label>  
-                <textarea required="" id="message" name="message"></textarea>  
-            </div>  
-            <input id="submit-btn" value="Send Message" type="submit">  
-        </form>  
-    </div> 
-
-    <footer>
-        <p>&copy; 2024 TechSolutions. All rights reserved.</p>
-    </footer>
 </body>
 </html>
