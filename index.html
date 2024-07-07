@@ -24,53 +24,54 @@ $jsonData = json_encode($data);
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- <style>
-        body {  
-            font-family: cursive; 
-            background-color: rgba(247, 247, 241, 0.861);  
-            color: #e3d80f;  
-            line-height: 1.5;  
-            background-image: url("images/techlogo.jpeg");  
-            background-size: cover;  
-            background-repeat: no-repeat;  
-        }  
-    </style> -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TechSolutions</title>
     <link rel="stylesheet" href="CSS/styles.css">
 </head>
+<style>
+     body {
+    font-family: cursive;
+    background-color: rgba(247, 247, 241, 0.861);
+    color: #bdb636;
+    background-image: url("images/background.jpeg");
+    background-size: cover;  
+    background-repeat: no-repeat;  
+
+    line-height: 1.5;
+  }
+</style>
 <body>
     <!-- Header -->
     <header>
-        <h1>About TechSolutions</h1>
-        
-
-        
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="login.html">Login</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="contactus.html">contact_us</a></li>
-                <!-- <li><a href="db.php">db</a></li> -->
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>TechSolutions</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <!-- Main Content -->
     <main>
-        <section>
-            <h2>Our Mission</h2>
-            <p>At TechSolutions, our mission is to provide innovative and reliable technology solutions to our clients.</p>
+        <section class="hero">
+            <div class="container">
+                <h2>Welcome to TechSolutions</h2>
+                <p>Your one-stop shop for all your technology needs.</p>
+            </div>
         </section>
-        
-        <!-- Example section to display data from database (if needed) -->
-        <!-- <section>
-            <h2>Database Data</h2>
-            <pre><?php echo print_r($data, true); ?></pre>
-        </section> -->
+        <section class="features">
+            <div class="container">
+                <h2>Our Mission</h2>
+                <p>At TechSolutions, our mission is to provide innovative and reliable technology solutions to our clients.</p>
+            </div>
+        </section>
     </main>
 </body>
 </html>

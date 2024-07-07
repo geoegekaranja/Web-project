@@ -1,104 +1,137 @@
-
-.body, h1, h2, p, ul, li {
+* {
     margin: 0;
     padding: 0;
-}
-
- 
-.body {  
-    font-family: cursive; 
-    background-color: rgba(161, 161, 169, 0.861);  
-    color: #0c0c05;  
-    line-height: 1.5;  
-    background-image: url("images/background.jpeg");  
-            background-size: cover;  
-            background-repeat: no-repeat;  
-       
-  }  
-
-header, footer {
-    background-color: #a19d9d;
-    color: #171717;
-    padding: 20px;
-}
-
-header nav ul {
-    list-style-type: none;
-}
-
-header nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-a {
-    color: #121010;
-    text-decoration: none;
-}
-
-main {
-    padding: 20px;
-}
-
-section {
-    margin-bottom: 20px;
-}
+    box-sizing: border-box;
+  }
   
-main {  
-    display: flex;  
-    flex-direction: column;  
-    align-items: center;  
-    padding: 20px;  
-}  
-section {  
-    background-color: #fff;  
-    padding: 20px;  
-    border: 1px solid #ddd;  
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
-    margin-bottom: 20px;  
-}  
-h2 {  
-    color: #333;  
-    margin-top: 0;  
-}  
-p {  
-    color: #666;  
-}  
-footer {  
-    background-color: #333;  
-    color: #fff;  
-    padding: 10px;  
-    text-align: center;  
-    clear: both;  
-}  
-.container {
+  body {
+    font-family: cursive;
+    background-color: rgba(247, 247, 241, 0.861);
+    color: #bdb636;
+    line-height: 1.5;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  header nav ul {
+    display: flex;
+    list-style-type: none;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+  
+  header nav ul li {
+    margin-right: 20px;
+  }
+  
+  header nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .hero {
+    background-image: url("images/techlogo.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .hero h2 {
+    font-size: 4rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .features {
+    padding: 40px 0;
+  }
+  
+  .features h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .cta {
+    background-color: #333
+  }
+  
+  section {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #333;
+    margin-top: 0;
+  }
+  
+  p {
+    color: #666;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+  }
+  
+  .container {
     max-width: 600px;
     margin: 40px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #d8dce8;
     border: 1px solid #ddd;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
-  h1 {  
-    text-align: center;  
-  }  
- .product {  
-    margin-bottom: 20px;  
-    border: 1px solid #ccc;  
-    padding: 10px;  
-  }  
- .product-info {  
-    margin-top: 10px;  
-  }  
- 
- .product img {  
-    width: 100px;  
-    height: 100px;  
-    margin: 10px;  
-    border: 1px solid #ccc;  
-  } 
-
-.wrapper {
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .product {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .product-info {
+    margin-top: 10px;
+  }
+  
+  .product img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .wrapper {
     max-width: 300px;
     margin: 40px auto;
     padding: 20px;
@@ -107,19 +140,17 @@ footer {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
-
   .form {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   
- 
   .input-box {
     margin-bottom: 20px;
   }
   
-  .input-box input[type="text"], .input-box input[type="password"] {
+  .input-box input[type="text"],.input-box input[type="password"] {
     width: 100%;
     height: 40px;
     padding: 10px;
@@ -156,7 +187,7 @@ footer {
     border: none;
     border-radius: 5px;
     background-color: #337ab7;
-    color: #fff;
+    color: #3a4aa8;
     font-size: 16px;
     cursor: pointer;
   }
@@ -184,21 +215,25 @@ footer {
   .register-link a:hover {
     color: #23527c;
   }
-.contact-box{
-   background-color: #fff;
-   display: flex; 
-}  
-.contact-left{
-    flex-basis: 60% ;
+  
+  .contact-box {
+    background-color: #fff;
+    display: flex;
+  }
+  
+  .contact-left {
+    flex-basis: 60%;
     padding: 40px 60px;
-}
-.contact-right{
-    flex-basis: 20% ;
+  }
+  
+  .contact-right {
+    flex-basis: 20%;
     padding: 40px;
     background: #1c00b5;
     color: #fff;
-}
-address {
+  }
+  
+  address {
     margin-top: 20px;
     font-style: normal;
   }
@@ -206,6 +241,7 @@ address {
   address p {
     margin-bottom: 10px;
   }
+  
   label {
     margin-bottom: 10px;
   }
