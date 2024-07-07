@@ -7,13 +7,13 @@
   body {
     font-family: cursive;
     background-color: rgba(247, 247, 241, 0.861);
-    color: #bdb636;
-    line-height: 1.5;
+    color: #181057;
+    line-height: normal;
   }
   
   header {
-    background-color: #333;
-    color: #fff;
+    background-color: #060202;
+    color: #181057;
     padding: 20px;
   }
   
@@ -34,34 +34,14 @@
   }
   
   header nav a {
-    color: #fff;
+    color: #150c47;
     text-decoration: none;
   }
   
   main {
     padding: 20px;
   }
-  
-  .hero {
-    background-image: url("images/techlogo.jpeg");
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-  
-  .hero h2 {
-    font-size: 4rem;
-    margin-bottom: 10px;
-  }
-  
-  .hero p {
-    font-size: 1.5rem;
-    margin-bottom: 30px;
-  }
+
   
   .features {
     padding: 40px 0;
@@ -245,3 +225,5 @@
   label {
     margin-bottom: 10px;
   }
+ 
+  
